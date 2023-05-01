@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="scripts.js"></script>
+    <title>Advanced To-Do-List</title>
+  </head>
+  <body>
+    <h1>Advanced To-Do-List</h1>
+
+    <form class="form-container">
+        <label for="title">Title</label><br />
+        <input type="text" id="title" name="title" /><br />
+        <label for="description">description</label><br />
+        <input type="text" id="description" name="description" /><br />
+        <label for="dueDate">Due Date</label><br />
+        <input type="date" id="dueDate" name="dueDate" /><br /> 
+        <label for="priority">Priority</label><br />
+        <input type="number" id="priority" name="priority" min="0" max="3"/><br /> 
+        <label for="checklist">Completed?</label><br />
+        <input type="checkbox" id="checklist" name="checklist" /><br />
+        <button id="addToDoItemToLibraryButton" type="button" class="btn">
+          Submit
+        </button>
+  </body>
+</html>
